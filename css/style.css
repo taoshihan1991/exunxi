@@ -8,7 +8,7 @@
 	padding: 0;
 }
 body {
-font-family:arial,helvetica,sans-serif;
+font-family:Tahoma,Microsoft YaHei,Verdana,Arial,Helvetica,sans-serif;
 font-size:13px;
 font-size-adjust:none;
 font-stretch:normal;
@@ -52,9 +52,117 @@ list-style-position:outside;
 list-style-type:none;
 }
 img, fieldset {
-border:0 none;
+	border:0 none;
+	margin: 0;
+	padding: 0;
 }
-ins {
-text-decoration:none;
+
+body{
+	margin: 0;
+	font: normal 14px Tahoma,Verdana,Arial,Helvetica,sans-serif;
+	line-height: 20px;
+	color: #555555;
+	overflow-x: hidden;
+	font-family: 'Microsoft YaHei';
 }
-/********************头部样式********************/
+.btn {
+	display: inline-block;
+	padding: 6px 12px 4px;
+	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 0;
+	border-radius: 0;
+}
+/********************基础样式********************/
+.header, .container, .footer {
+	max-width: 1003px;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+}
+.header {
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.navbar {
+	height: 93px;
+	background: #434250;
+}
+.navbar:before, .navbar:after {
+	display: table;
+	content: "";
+	line-height: 0;
+}
+.navbar:after {
+	clear: both;
+}
+.speedbar {
+	clear: both;
+	color: #666;
+	background-color: #e9e9e9;
+	padding: 8px 20px 13px;
+	overflow: hidden;
+	height: 12px;
+	border: 1px solid #bebebe;
+}
+.navbar .logo{
+	display: block;
+	width: 200px;
+	height: 80px;
+	float: left;
+	overflow: hidden;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	margin: 5px 0 0 30px;
+}
+.navbar .logo a{
+	display: block;
+	width: 200px;
+	height: 80px;
+}
+.navbar .logo img{
+	width: 200px;
+	height: 80px;
+}
+.navbar .menu {
+	margin-right: 10px;
+	margin-top: 30px;
+}
+.pull-right {
+	float: right;
+}
+.search-form {
+	float: left;
+	margin: 0 5px 0 0;
+}
+input.search-input {
+	float: left;
+	color: #bbb;
+	border: 1px solid #ccc;
+	width: 160px;
+	display: inline-block;
+	height: 20px;
+	padding: 5px 6px 3px;
+	margin-bottom: 10px;
+	font-size: 12px;
+	line-height: 20px;
+	color: #555555;
+	border-radius: 0;
+	vertical-align: middle;
+}
+.search-submit {
+	float: left;
+}
+.btn-success {
+	color: #ffffff;
+	background-color: #5cb85c;
+}
+.btn-success:hover{
+	background-color: #48AD48;
+}
