@@ -307,11 +307,204 @@ margin-right: 0px;
 	width: 200px;
 	overflow: hidden;
 }
+.grid-box-left ul li{
+	height: 29px;
+	line-height: 29px;
+}
 .rightdate {
 	float: right;
 	color: #777;
 	padding-right: 10px;
 	margin-left: 10px;
+}
+
+/*头条*/
+.grid-box-right {
+	margin: 12px 0px 10px 10px;
+	width: 413px;
+	height: 332px;
+	overflow: hidden;
+	float: left;
+}
+.grid-box-right .nr1{
+	margin-top: 8px;
+	margin-bottom: 5px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	overflow: hidden;
+	display: block;
+}
+.grid-box-right .nr1 a {
+	font: 18px/27px "宋体";
+	color: #ff6600;
+	font-weight: bold;
+}
+.grid-box-right .nr2 {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	white-space: nowrap;
+	overflow: hidden;
+	display: inline-block;
+}
+.grid-box-right .nr2 a:hover{
+	color: #428BD1;
+}
+/*滚动图片*/
+.pic-box {
+	border: #e2e2e2 1px solid;
+	margin-bottom: 10px;
+	width: 697px;
+	height: 230px;
+	margin-right: 0px;
+	float: left;
+}
+.picMarquee-left{ 
+	width:697px;  
+	overflow:hidden; 
+	position:relative;
+}
+.picMarquee-left .bd ul{ 
+	overflow:hidden; 
+	zoom:1; 
+}
+.picMarquee-left .bd ul li{ 
+	margin:0 5px; 
+	padding-right: 2px;
+	float:left; 
+	_display:inline; 
+	overflow:hidden; 
+	text-align:center;  
+	width: 140px;
+	height: 195px;
+	border-right: #e2e2e2 1px solid;
+}
+.picMarquee-left .bd ul li .pic{ 
+	text-align:center; 
+}
+.picMarquee-left .bd ul li .pic img{ 
+	max-width:135px; 
+	height:135px; 
+	display:block; 
+	padding:2px;
+}
+.picMarquee-left .bd ul li .pic a:hover img{ border-color:#999;  }
+.picMarquee-left .bd ul li .title{ 
+	line-height:24px;
+	background: none;   
+	border: none;
+	padding: 2px;
+	text-align: center;
+}
+.picMarquee-left .bd ul li .title a:hover{
+	color: #428BD1;
+}
+/*地区*/
+.area-sub {
+	width: 300px;
+	overflow: hidden;
+	margin-top: 14px;
+	border-top: 2px solid #206F96;
+}
+.slideTxtBox{ 
+	width:298px; 
+	border:1px solid #ddd; 
+	text-align:left;  
+}
+.slideTxtBox .hd{ 
+	height:30px; 
+	line-height:30px; 
+	background:#f4f4f4; 
+	border-bottom: 1px solid #CFCFCF;
+	position:relative; 
+}
+.slideTxtBox .hd ul{ 
+	float:left;  
+	position:absolute; 
+	left:1px; 
+	top:-1px; 
+	width: 299px;
+
+}
+.slideTxtBox .hd ul li{ 
+	float:left; 
+	width: 98px;
+	height: 30px;
+	border-right: 1px solid #CFCFCF;
+	cursor:pointer;  
+	display: block;
+	text-align: center;
+}
+.slideTxtBox .hd ul li.last{
+	border-right: none;
+}
+.slideTxtBox .hd ul li.on{ 
+	height:32px;  
+	background:#fff;
+	border-bottom: none;
+}
+.slideTxtBox .bd ul{ 
+	zoom:1;  
+	height: 537px;
+}
+.slideTxtBox .bd li{   
+	border-bottom: 1px solid #E3E6EB; 
+	display: block;
+	width:298px;
+	height: 42px;
+	line-height: 42px;
+	overflow: hidden;
+}
+
+.slideTxtBox .bd li.eat-me{
+	height: 180px;
+	overflow: hidden;
+	line-height: 180px;
+}
+.slideTxtBox .bd li.eat-me h3 {
+	font-weight: bold;
+}
+.slideTxtBox .bd li a{ 
+
+	padding: 0 9px 0 14px;
+}
+.list-tweet h3 {
+	line-height: 42px;
+	height: 42px;
+	overflow: hidden;
+	font-size: 14px;
+}
+.list-tweet .thumb{
+	display: block;
+	width: 90px;
+	height: 110px;
+	float: left;
+}
+.list-tweet img {
+	margin-right: 9px;
+	width: 90px;
+	max-height: 110px;
+}
+.list-tweet p {
+	font-size: 12px;
+	height: 84px;
+	line-height: 21px;
+	color: #666;
+}
+.tweet-detail-func {
+	float: right;
+	font-size: 12px;
+	line-height: 22px;
+	color: #ddd;
+}
+.tweet-detail-func a{
+	color: #174F82;
+}
+.tweet-detail-date {
+	margin-right: 46px;
+	color: #ccc;
+	font-size: 12px;
 }
 /*热区*/
 .hot {
@@ -403,3 +596,4 @@ margin-right: 0px;
 .footer-inner:after {
 	clear: both;
 }
+/*列表页*/
