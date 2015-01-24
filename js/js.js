@@ -8,4 +8,9 @@ $(function(){
 		$('.list-tweet li').removeClass('eat-me');
 		$(this).addClass('eat-me');
 	})
+
+	$('.excerpt').hover(function(){
+		$('.excerpt').removeClass('cur');
+		$(this).addClass('cur');
+	})
 })
