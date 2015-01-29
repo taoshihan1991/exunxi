@@ -600,6 +600,7 @@ margin-right: 0px;
 	float: left;
 }
 .content {
+	margin-bottom: 5px;
 	margin-right: 300px;
 }
 .archive-header {
@@ -910,4 +911,23 @@ p.t-tag a {
 	line-height: 30px;
 	overflow: hidden;
 	margin-top: 10px;
+}
+.page{
+	margin-top: 20px;
+}
+.page a,.page span{
+	margin: 0 1px;
+	padding: 4px 12px 3px;
+	line-height: 20px;
+	text-decoration: none;
+	background-color: #eee;
+	color: #666;
+	cursor: pointer;
+}
+.page span.current{
+	background-color:#428BCA;
+	color: #fff;
+}
+.page a:hover{
+	background: #E0E0E0;
 }

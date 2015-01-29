@@ -1,0 +1,20 @@
+	<div class="new-header">
+		<div class="head-box">
+			<h1 class="logo"><a href="__ROOT__">书香社</a></h1>
+			<ul class="nav">
+				<foreach name="nav" item="v">
+				<li>
+					<a href="{:U('List/index',array('cid'=>$v['id']))}">{$v.classname}</a>
+				</li>
+				</foreach>
+				
+			</ul>
+			<div class="menu pull-right">
+				<form method="get" class="dropdown search-form" action="">
+					<input class="search-submit btn btn-success" type="submit" value="搜索">
+					<input class="search-input" name="s" type="text" placeholder=" 输入你要搜索的内容" autofocus="" x-webkit-speech="">
+			
+				</form>
+			</div>
+		</div>
+	</div>

@@ -21,16 +21,17 @@
 </head>
 <body>
 <div class="pd-20">
-  <?php dump($nowClass);?>
-  <form class="Huiform" action="/" method="post">
+
+  <form class="Huiform" action="<?php echo U('Xwclass/modify');?>" method="post" id="myForm">
+    <input type="hidden" name="id" value="<?php echo ($nowClass["id"]); ?>" />
     上级栏目：
-    <select class="select" id="sel_Sub" name="sel_Sub" onchange="SetSubID(this);">
-      <?php if(is_array($xwClass)): foreach($xwClass as $key=>$v): ?><option value="0">顶级分类</option>
-      <option value="<?php echo ($v["id"]); ?>" <?php if($nowClass['id']==$v['id']): ?>selected="selected"<?php endif; echo str_repeat('&nbsp;&nbsp;├&nbsp;', $v['lev']); echo ($v["classname"]); ?></option><?php endforeach; endif; ?>
+    <select class="select" id="sel_Sub" name="topid" onchange="SetSubID(this);">
+      <option value="0">顶级分类</option>
+      <?php if(is_array($xwClass)): foreach($xwClass as $key=>$v): ?><option value="<?php echo ($v["id"]); ?>" <?php if($nowClass['topid']==$v['id']): ?>selected="selected"<?php endif; ?>><?php echo str_repeat('&nbsp;&nbsp;├&nbsp;', $v['lev']); echo ($v["classname"]); ?></option><?php endforeach; endif; ?>
     </select>
-    <input type="hidden" id="hid_ccid" value="">排序：<input class="input-text text-c" style="width:50px" type="text" value="3" placeholder="排序" name="class-rank" id="class-rank">
-    分类名：<input class="input-text" style="width:170px" type="text" value="二级分类" placeholder="输入分类" name="class-val" id="class-val">
-    <div class="text-c mt-20"><button type="button" class="btn btn-success" id="" name="" onClick="class_save(this,'2');"><i class="icon-save"></i> 保存</button></div>
+    <input type="hidden" id="hid_ccid" value="">排序：<input class="input-text text-c" style="width:50px" type="text" value="<?php echo ($nowClass["xh"]); ?>" placeholder="排序" name="xh" id="class-rank">
+    分类名：<input name="classname" class="input-text" style="width:170px" type="text" value="<?php echo ($nowClass["classname"]); ?>" placeholder="输入分类" name="class-val" id="class-val">
+    <div class="text-c mt-20"><button type="button" class="btn btn-success" id=""  onClick="myForm.submit()"><i class="icon-save"></i> 保存</button></div>
   </form>
 </div>
 <script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>

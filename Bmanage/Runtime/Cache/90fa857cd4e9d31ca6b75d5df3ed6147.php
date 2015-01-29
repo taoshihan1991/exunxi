@@ -21,7 +21,7 @@
 <title>分类管理</title>
 </head>
 <body>
-<nav class="Hui-breadcrumb"><i class="icon-home"></i> 首页 <span class="c-gray en">&gt;</span> 资讯管理 <span class="c-gray en">&gt;</span> 分类管理 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="icon-refresh"></i></a></nav>
+<nav class="Hui-breadcrumb"><i class="icon-home"></i> 首页 <span class="c-gray en">&gt;</span> 栏目管理 <span class="c-gray en">&gt;</span> 分类管理 <a class="btn btn-success radius r mr-20" style="line-height:1.6em;margin-top:3px" href="javascript:location.replace(location.href);" title="刷新" ><i class="icon-refresh"></i></a></nav>
 <div class="pd-20 text-c">
   <form class="Huiform" id="addClass" action="<?php echo U('Xwclass/addClass');?>" method="post">
     上级栏目：
@@ -50,7 +50,7 @@
           <td><?php echo ($v["id"]); ?></td>
           <td><?php echo ($v["xh"]); ?></td>
           <td class="text-l"><?php echo str_repeat('&nbsp;&nbsp;├&nbsp;', $v['lev']); echo ($v["classname"]); ?></td>
-          <td class="f-14"><a title="编辑" href="javascript:;" onclick="artice_class_edit('1','620','400','分类编辑','<?php echo U('Xwclass/update',array('id'=>$v['id']));?>')" style="text-decoration:none"><i class="icon-edit"></i></a> <a title="删除" href="<?php echo U('Xwclass/del',array('id'=>$v['id']));?>" class="ml-5" style="text-decoration:none"><i class="icon-trash"></i></a></td>
+          <td class="f-14"><a title="编辑" href="<?php echo U('Xwclass/update',array('id'=>$v['id']));?>" style="text-decoration:none"><i class="icon-edit"></i></a> <a title="删除" href="<?php echo U('Xwclass/del',array('id'=>$v['id']));?>" class="ml-5" style="text-decoration:none"><i class="icon-trash"></i></a></td>
         </tr><?php endforeach; endif; ?>
         
       </tbody>

@@ -1,0 +1,670 @@
+[ 2015-01-28T17:56:36+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.064995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.065140s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.023772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023889s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.172569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.172694s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010340s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.011186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.016468s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.049562s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.041946s ]
+INFO: [ view_end ] --END-- [ RunTime:0.042053s ]
+
+[ 2015-01-28T17:56:38+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013368s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013520s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015229s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.142286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.142404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010098s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.015137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044398s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015231s ]
+
+[ 2015-01-28T17:56:39+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/checkcode.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.012559s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012722s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013124s ]
+
+[ 2015-01-28T18:01:12+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015896s ]
+INFO: [ route_check ] --END-- [ RunTime:0.016117s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.024311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024521s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070070s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011329s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010065s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009537s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009899s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010246s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010332s ]
+
+[ 2015-01-28T18:01:13+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/checkcode.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010049s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009810s ]
+
+[ 2015-01-28T18:01:21+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010064s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009723s ]
+SQL: SHOW COLUMNS FROM `tg_admin` [ RunTime:0.174738s ]
+SQL: SELECT * FROM `tg_admin` WHERE ( ad_name='admin' ) LIMIT 1   [ RunTime:0.042049s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.073702s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073822s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009657s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.028770s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009776s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.058966s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.020267s ]
+INFO: [ view_end ] --END-- [ RunTime:0.020354s ]
+
+[ 2015-01-28T18:01:23+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009888s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010003s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009768s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062059s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062164s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010649s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010448s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009650s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040494s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009663s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009749s ]
+
+[ 2015-01-28T18:01:23+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/welcome.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010072s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009817s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.229409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.229539s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.012527s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.012115s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.047300s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010527s ]
+
+[ 2015-01-28T18:01:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010136s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010257s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011143s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076065s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010730s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010075s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009653s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.012593s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010074s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010164s ]
+
+[ 2015-01-28T18:01:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/welcome.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009758s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061606s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012942s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009616s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009584s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042135s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009849s ]
+
+[ 2015-01-28T18:08:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010140s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070316s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070420s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009630s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009567s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009934s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038681s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009608s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009692s ]
+
+[ 2015-01-28T18:08:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/welcome.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009726s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009833s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009425s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061925s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009354s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009185s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009035s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037091s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009420s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009504s ]
+
+[ 2015-01-28T18:08:50+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/artice-class.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009887s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010009s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009804s ]
+ERR: 非法操作:artice-class
+
+[ 2015-01-28T18:08:55+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010199s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009318s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.113559s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.085827s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.146063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146205s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009377s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009485s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010032s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038855s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011061s ]
+
+[ 2015-01-28T18:09:01+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/update/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010511s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010638s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010061s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.006771s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.092793s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.000981s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.104140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.104316s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009644s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011378s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009816s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040553s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009436s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009513s ]
+
+[ 2015-01-28T18:10:15+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010202s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009695s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012774s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.001492s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072890s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009148s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009187s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008955s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036744s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009441s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009526s ]
+
+[ 2015-01-28T18:10:19+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/update/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009595s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009720s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009401s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.011416s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.002398s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.000560s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068543s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009305s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009235s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009435s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037501s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009496s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009577s ]
+
+[ 2015-01-28T18:10:25+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/modify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009922s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009971s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012639s ]
+SQL: SELECT `id`,`topid` FROM `tg_xwclass`  [ RunTime:0.030293s ]
+SQL: UPDATE `tg_xwclass` SET `classname`='777',`topid`=11,`xh`=0 WHERE ( id=12 ) [ RunTime:0.107025s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.092306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092469s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010520s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009364s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009525s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038969s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009805s ]
+
+[ 2015-01-28T18:10:28+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/update/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009768s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009740s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012595s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.005618s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.001127s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009345s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009580s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009157s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037775s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009863s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009944s ]
+
+[ 2015-01-28T18:10:32+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/modify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009890s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010013s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009476s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.013221s ]
+SQL: SELECT `id`,`topid` FROM `tg_xwclass`  [ RunTime:0.004871s ]
+SQL: UPDATE `tg_xwclass` SET `classname`='777',`topid`=8,`xh`=0 WHERE ( id=12 ) [ RunTime:0.068191s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076662s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009430s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009044s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037779s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009656s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009733s ]
+
+[ 2015-01-28T18:10:35+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009873s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010230s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012381s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.005550s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072010s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072131s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009442s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009346s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009657s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009741s ]
+
+[ 2015-01-28T18:10:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/update/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009431s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.009993s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000578s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.000583s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.059561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059686s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009152s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009103s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008932s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009309s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009356s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009433s ]
+
+[ 2015-01-28T18:10:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/modify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009630s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009754s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009469s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.045106s ]
+SQL: SELECT `id`,`topid` FROM `tg_xwclass`  [ RunTime:0.004855s ]
+SQL: UPDATE `tg_xwclass` SET `classname`='777',`topid`=7,`xh`=0 WHERE ( id=12 ) [ RunTime:0.000964s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067369s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067531s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009100s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009154s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009203s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010062s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037758s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009644s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009720s ]
+
+[ 2015-01-28T18:10:54+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009929s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010050s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009593s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012450s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.004055s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072022s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072209s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009678s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009255s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009288s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037992s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009432s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009514s ]
+
+[ 2015-01-28T18:11:16+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/update/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010044s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009648s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.009518s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.003644s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.000765s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069793s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009199s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009233s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038005s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010164s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010247s ]
+
+[ 2015-01-28T18:11:21+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/modify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010274s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009425s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012573s ]
+SQL: SELECT `id`,`topid` FROM `tg_xwclass`  [ RunTime:0.003526s ]
+SQL: UPDATE `tg_xwclass` SET `classname`='asas',`topid`=7,`xh`=0 WHERE ( id=12 ) [ RunTime:0.001080s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071569s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071733s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009511s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009228s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009309s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009687s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037990s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010028s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010112s ]
+
+[ 2015-01-28T18:11:30+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009554s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009688s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009398s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.014874s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.002862s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075379s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075550s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009403s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009393s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009195s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009460s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009538s ]
+
+[ 2015-01-28T18:11:35+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/update/id/12.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010345s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010469s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009730s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.047680s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.002987s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.000879s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074219s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009599s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009500s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009255s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009843s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009924s ]
+
+[ 2015-01-28T18:11:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/modify.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009606s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009727s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009439s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012987s ]
+SQL: SELECT `id`,`topid` FROM `tg_xwclass`  [ RunTime:0.004660s ]
+SQL: UPDATE `tg_xwclass` SET `classname`='sdsdsd',`topid`=7,`xh`=0 WHERE ( id=12 ) [ RunTime:0.001009s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066577s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009203s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009369s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009305s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037439s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009552s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009630s ]
+
+[ 2015-01-28T18:11:42+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013077s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013564s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.017608s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.001079s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069954s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038512s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009742s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009825s ]
+
+[ 2015-01-28T18:12:43+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010120s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009533s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009619s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.521741s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.002588s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076890s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009734s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009526s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009429s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009979s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038915s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009770s ]
+
+[ 2015-01-28T18:32:59+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009785s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009521s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.014528s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.005233s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071155s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009502s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010923s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039581s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010083s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010165s ]
+

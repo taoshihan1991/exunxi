@@ -69,7 +69,7 @@ class XwclassAction extends CommonAction {
 		
 	
 		if(M('Xwclass')->where("id={$id}")->save($data)){
-			$this->error("类别修改成功！",U('index'));
+			$this->success("类别修改成功！",U('index'));
 			exit;
 		}else{
 			$this->error("类别没有修改！",U('Xwclass/update',array('id'=>$id)));
