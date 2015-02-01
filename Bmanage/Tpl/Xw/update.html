@@ -1,0 +1,147 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<include file="Public:source"/>
+<title></title>
+</head>
+<body>
+<div class="pd-20">
+  <form class="Huiform" id="loginform" action="{:U('Xw/update',array('id'=>$info['id']))}" method="post">
+    <table class="table table-border table-bordered table-bg">
+      <thead>
+        <tr>
+          <th colspan="2">修改文章</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th class="text-r" width="30%">标题：</th>
+          <td><input name="title" id="title" class="input-text" type="text" autocomplete="off" placeholder="" tabindex="3" datatype="*" nullmsg="请输入标题！" errormsg="请输入标题！" value="{$info.title}"> 
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r" width="30%">外链：</th>
+          <td><input name="link" id="link" class="input-text" type="text" autocomplete="off" value="{$info.link}" > 
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r" width="30%">属性：</th>
+          <td>
+          <foreach name="attr" item="v">
+          <input name="attr[]" type="checkbox" value="{$v.id}"
+            <foreach name="shuxing" item="s">
+            <if condition="$v['id']==$s['attr_id']">
+            checked
+            </if>
+            </foreach>
+          />&nbsp;&nbsp; {$v.name}&nbsp;&nbsp;&nbsp;&nbsp;
+          </foreach>
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r" width="30%">图片：</th>
+          <td>
+            <span id="picdr" style="padding-right:2px;">
+            <input type="text" id="url1" name="pic1" class="input-text" value="{$info.pic1}"/> <input type="button" id="image1" value="选择图片" class="btn btn-primary"/>（网络图片 + 本地上传）</span>
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r">分类：</th>
+          <td>
+            <select  name="topid">
+            <foreach name="xwClass" item="v">
+              <option value='{$v.id}' <if condition="$info['classid']==$v['id']">selected="selected"</if>><?php echo str_repeat('&nbsp;&nbsp;├&nbsp;', $v['lev']);?>{$v.classname}</option> 
+            </foreach>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r" width="30%">点击数：</th>
+          <td>
+            <input name="hits" id="hits" class="input-text" type="text" autocomplete="off" value="{$info.hits}"> 
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r" width="30%">tag标签：</th>
+          <td>
+            <input name="tag" id="tag" class="input-text" type="text" autocomplete="off" value="{$info.tag}"> （以中文逗号","分割）
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r" width="30%">所属书架：</th>
+          <td>
+           <select  name="caseid[]" multiple="multiple" style="width:200px;">
+            <foreach name="bookcase" item="v">
+              <option value='{$v.id}'
+              <?php $caseid=unserialize($info['caseid']);?>
+              <foreach name="caseid" item="s">
+              <if condition="$s==$v['id']">selected="selected"</if>
+              </foreach>
+              >{$v.casename}</option> 
+            </foreach>
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r" width="30%">内容：</th>
+          <td>
+            <textarea id="elm1" name="content" rows="20" cols="5"  style="width:98%">{$info.content}</textarea>
+          </td>
+        </tr>
+        <tr>
+          <th></th>
+          <td>
+            <button type="submit" class="btn btn-success radius" id="admin-password-save"><i class="icon-ok"></i> 确定</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </form>
+</div>
+
+<script type="text/javascript" src="__STATIC__/js/Validform_v5.3.2_min.js"></script> 
+
+
+<script type="text/javascript">
+$(".Huiform").Validform(); 
+</script>
+
+
+
+<!--kindeditor-->
+<link rel="stylesheet" href="__STATIC__/kindeditor/themes/default/default.css" />
+<script charset="utf-8" src="__STATIC__/kindeditor/kindeditor-min.js"></script>
+<script charset="utf-8" src="__STATIC__/kindeditor/lang/zh_CN.js"></script>
+<script>
+      var editor;
+      KindEditor.ready(function(K) {
+        editor = K.create('textarea[name="content"]', {
+          allowFileManager : true
+        });
+
+        K('#submit').click(function(e) {
+          var str=editor.html();
+          $('#content').html(str);
+        });
+
+        K('#image1').click(function() {
+          editor.loadPlugin('image', function() {
+            editor.plugin.imageDialog({
+              imageUrl : K('#url1').val(),
+              clickFn : function(url, title, width, height, border, align) {
+                K('#url1').val(url);
+                editor.hideDialog();
+              }
+            });
+          });
+        });
+        
+      });
+    </script>
+<!--kindeditor-->
+</body>
+</html>

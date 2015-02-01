@@ -86,25 +86,22 @@
 	<div class="IndexLink">
 		<div class="moketitle">友情链接<a href="" rel="nofollow">more>></a></div>
 		<ul>
-			<li><a href="">管理学书籍</a></li>
-			<li><a href="">酷读论坛</a></li>
-			<li><a href="">微时光</a></li>
-			<li><a href="">敲敲门</a></li>
-			<li><a href="">同行者</a></li>
+		<?php if(is_array($link)): foreach($link as $key=>$v): ?><li><a href="<?php echo ($v["link"]); ?>" target="_blank"><?php echo ($v["title"]); ?></a></li><?php endforeach; endif; ?>
 		</ul>
 	</div>
 	<!--//友情链接-->
 	<!--底部-->
 	<div class="footer">
 		<div class="footer-inner">
-			<div class="copyright pull-left">Copyright © 2015 <a href="">易迅息</a> Powered by <a href="">tshgrw.cn</a></div>
+			<div class="copyright pull-left">Copyright © 2015 <a href="">书香社</a> Powered by <a href="">tshgrw.cn</a></div>
 			<div class="trackcode pull-right">
 				<a href="">登录</a> |
-				<a href="">关于易迅息</a> |
+				<a href="">关于书香社</a> |
 				<a href="">RSS订阅</a> |
 			</div>
 		</div>
 	</div>
+
 	<!--//底部-->
 </body>
 </html>

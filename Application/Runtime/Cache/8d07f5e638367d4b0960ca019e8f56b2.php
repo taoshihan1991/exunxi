@@ -45,7 +45,7 @@
 				<?php if(is_array($list)): foreach($list as $key=>$v): $i++;?>
 				<div class="excerpt <?php if($i==1): ?>cur<?php endif; ?>">
 					<a href="<?php echo U('view/index',array('id'=>$v['id']));?>" class="focus">
-						<img src="__ROOT__<?php echo ($v["pic1"]); ?>.small.jpg">
+						<img src="<?php echo checkPic($v['pic1'],'small');?>">
 					</a>
 					<h2><a href="<?php echo U('view/index',array('id'=>$v['id']));?>" title="<?php echo ($v["title"]); ?>"><?php echo ($v["title"]); ?></a></h2>
 					<p class="t-tag">
@@ -101,14 +101,15 @@
 	<!--底部-->
 	<div class="footer">
 		<div class="footer-inner">
-			<div class="copyright pull-left">Copyright © 2015 <a href="">易迅息</a> Powered by <a href="">tshgrw.cn</a></div>
+			<div class="copyright pull-left">Copyright © 2015 <a href="">书香社</a> Powered by <a href="">tshgrw.cn</a></div>
 			<div class="trackcode pull-right">
 				<a href="">登录</a> |
-				<a href="">关于易迅息</a> |
+				<a href="">关于书香社</a> |
 				<a href="">RSS订阅</a> |
 			</div>
 		</div>
 	</div>
+
 	<!--//底部-->
 </body>
 </html>

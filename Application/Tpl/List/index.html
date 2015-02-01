@@ -25,7 +25,7 @@
 				<?php $i++;?>
 				<div class="excerpt <if condition="$i==1">cur</if>">
 					<a href="{:U('view/index',array('id'=>$v['id']))}" class="focus">
-						<img src="__ROOT__{$v.pic1}.small.jpg">
+						<img src="{:checkPic($v['pic1'],'small')}">
 					</a>
 					<h2><a href="{:U('view/index',array('id'=>$v['id']))}" title="{$v.title}">{$v.title}</a></h2>
 					<p class="t-tag">

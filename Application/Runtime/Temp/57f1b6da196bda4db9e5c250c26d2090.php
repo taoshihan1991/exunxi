@@ -1,5 +1,5 @@
 <?php
-//000000086400a:2:{i:0;a:9:{s:2:"id";s:2:"40";s:5:"title";s:39:"古剑奇谭音乐《剑伤》循环听";s:4:"pic1";s:45:"/Upload/image/201407/20140727003506_41242.jpg";s:4:"hits";s:2:"18";s:7:"content";s:1152:"<p>
+//000000086400a:2:{i:0;a:9:{s:2:"id";s:2:"40";s:5:"title";s:39:"古剑奇谭音乐《剑伤》循环听";s:4:"pic1";s:45:"/Upload/image/201407/20140727003506_41242.jpg";s:4:"hits";s:2:"24";s:7:"content";s:1152:"<p>
 	在追古剑奇谭电视剧，游戏配乐好像是麦振红，我最喜欢的仙剑音乐，唐人电视剧音乐很多都是他配的，古剑电视剧的音乐也很好听，剑伤这首歌恩……恩……恩……副歌部分很惊艳，其他部分……也不难听。整体来说，还不错
 </p>
 <p>
@@ -39,7 +39,7 @@
 血在发芽<br />
 开出了花
 </p>
-<embed src="http://www.xiami.com/widget/15269577_1773293169,_235_346_5695c1_457cb4_1/multiPlayer.swf" type="application/x-shockwave-flash" width="235" height="346" />";s:7:"classid";s:1:"7";s:4:"time";s:10:"1406392664";s:3:"tag";s:54:"古剑奇谭，音乐推荐，生活杂记，青果网";s:9:"classname";s:12:"生活杂记";}i:1;a:9:{s:2:"id";s:2:"34";s:5:"title";s:6:"星空";s:4:"pic1";s:45:"/Upload/image/201407/20140726120235_35982.jpg";s:4:"hits";s:2:"11";s:7:"content";s:3216:"<p>
+<embed src="http://www.xiami.com/widget/15269577_1773293169,_235_346_5695c1_457cb4_1/multiPlayer.swf" type="application/x-shockwave-flash" width="235" height="346" />";s:7:"classid";s:1:"7";s:4:"time";s:10:"1406392664";s:3:"tag";s:54:"古剑奇谭，音乐推荐，生活杂记，青果网";s:9:"classname";s:12:"节目推荐";}i:1;a:9:{s:2:"id";s:2:"34";s:5:"title";s:6:"星空";s:4:"pic1";s:45:"/Upload/image/201407/20140726120235_35982.jpg";s:4:"hits";s:2:"13";s:7:"content";s:3216:"<p>
 	这是一篇高中的阅读题，这篇文章当时给我留下了非常深的印象，草原，星空，铃铛
 </p>
 <p style="text-indent:2em;color:#444444;font-family:'Microsoft YaHei', 'Courier New', Courier;font-size:14px;background-color:#FFFFFF;">
@@ -71,5 +71,5 @@
 </p>
 <p>
 	<br />
-</p>";s:7:"classid";s:1:"7";s:4:"time";s:10:"1406347431";s:3:"tag";s:36:"草原，星空，铃铛，青果网";s:9:"classname";s:12:"生活杂记";}}
+</p>";s:7:"classid";s:1:"7";s:4:"time";s:10:"1406347431";s:3:"tag";s:36:"草原，星空，铃铛，青果网";s:9:"classname";s:12:"节目推荐";}}
 ?>

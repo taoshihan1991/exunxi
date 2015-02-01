@@ -1,25 +1,22 @@
 <?php
-// 新闻类别无限极分类
+// 文章控制器
 class XwAction extends CommonAction {
     public function index(){
     	$a=M('xw');
-
 		import('ORG.Util.Page');// 导入分页类
 		$field=array(
-			'a.id','a.title','a.state','a.time','b.classname','c.username'
+			'a.id','a.title','a.state','a.time','b.classname'
 		);
-		$where=array(
-			'del'=>array('neq',1)
-		);
+
 			// 查询满足要求的总记录数 $map表示查询条件
-			$count      = $a->table("tg_xw a")->join('tg_xwclass b on a.classid=b.id ')->join('tg_user c on c.id=a.uid ')->where($where)->count();
+			$count      = $a->table("tg_xw a")->count();
 			$Page       = new Page($count,20);// 实例化分页类 传入总记录数  
 			$show       = $Page->show();// 分页显示输出
 			 // 进行分页数据查询
-			$list = $a->table("tg_xw a")->join('tg_xwclass b on a.classid=b.id ')->join('tg_user c on c.id=a.uid ')->limit($Page->firstRow.','.$Page->listRows)->field($field)->where($where)->order("a.id desc")->select();
+			$list = $a->table("tg_xw a")->join('tg_xwclass b on a.classid=b.id ')->limit($Page->firstRow.','.$Page->listRows)->field($field)->order("a.id desc")->select();
 		
 
-		
+		$this->assign('count',$count);
 		$this->assign('list',$list);// 赋值数据集
 		$this->assign('page',$show);// 赋值分页输出
 		$this->display();
@@ -27,118 +24,117 @@ class XwAction extends CommonAction {
 
 	//添加新闻
 	public function add(){
+		if(IS_POST){
+			$data=array();
+			$data['title']=$_POST['title'];
+			$data['pic1']=$_POST['pic1'];
+			$data['classid']=$_POST['topid'];
+			$data['content']=$_POST['content'];
+			$data['hits']=$_POST['hits']+0;
+			$data['tag']=$_POST['tag'];
+			$data['link']=$_POST['link'];
+			$data['state']=1;
+			$data['time']=time();
+			$data['caseid']=$_POST['caseid'] ? serialize($_POST['caseid']) : '';
+			if($aid=M('xw')->add($data)){
+				//添加到书架表
+				if(is_array($_POST['caseid'])){
+					$model_bookcase=M('bookcase');
+					foreach ($_POST['caseid'] as $k => $v) {
+						$aids=$model_bookcase->where("id=$v")->getField('aids');
+						$aid_arr=unserialize($aids);
+						$aid_arr[]=$aid;
+						$temp=array('aids'=>serialize($aid_arr),'updatetime'=>time());
+						$model_bookcase->where("id=$v")->save($temp);
+					}
+				}
+				if(isset($_POST['attr'])){
+					$attr=array();
+					foreach($_POST['attr'] as $v){
+						$attr[]=array('aid'=>$aid,'attr_id'=>$v);
+					}
+					M('xw_attr')->addAll($attr);
+				}
+				$this->success('操作成功！',U('Xw/index'));
+			}else{
+				$this->error('操作失败！',U('Xw/index'));
 
+			}
+			exit;
+		}
 		$xwClass=M("Xwclass")->order("xh desc,id desc")->select();
 		$list=sortCate($xwClass,0);
 		$this->assign("xwClass",$list);
-
-
 		$this->attr=M('Attr')->select();
-	
-		
+		$this->bookcase=M("Bookcase")->order("sort asc,id desc")->select();
 		$this->display();
 	}
-
-	//添加操作
-	public function insert(){
-		$data['title']=$_POST['title'];
-		$data['pic1']=$_POST['pic1'];
-		$data['classid']=$_POST['topid'];
-		$data['content']=$_POST['content'];
-		$data['hits']=$_POST['hits']+0;
-		$data['tag']=$_POST['tag'];
-		$data['link']=$_POST['link'];
-		$data['state']=1;
-		$data['time']=time();
-
-		if($aid=M('xw')->add($data)){
-			$this->success('添加文章成功！',U('Xw/index'));
-			if(isset($_POST['attr'])){
-				$attr=array();
-				//$sql='INSERT INTO `'.C('DB_PREFIX').'xw_attr`(aid,attr_id) VALUES ('..')';
-				foreach($_POST['attr'] as $v){
-					$attr[]=array('aid'=>$aid,'attr_id'=>$v);
-				}
-				M('xw_attr')->addAll($attr);
-				
-			}
-		}else{
-			$this->error('添加文章失败！',U('Xw/index'));
-
-		}
-		
-	
-		
-	}
-
 	//修改界面
 	public function update(){
-		
+		$id=$_GET['id']+0;
+		if(IS_POST){
+			$data=array();
+			$data['title']=$_POST['title'];
+			$data['pic1']=$_POST['pic1'];
+			$data['classid']=$_POST['topid'];
+			$data['content']=$_POST['content'];
+			$data['hits']=$_POST['hits']+0;
+			$data['tag']=$_POST['tag'];
+			$data['link']=$_POST['link'];
+			$data['state']=1;
+			$data['time']=time();
+			$data['caseid']=$_POST['caseid'] ? serialize($_POST['caseid']) : '';
+			if(M('xw')->where("id={$id}")->save($data)){
+				//添加到书架表
+				if(is_array($_POST['caseid'])){
+					$model_bookcase=M('bookcase');
+					foreach ($_POST['caseid'] as $k => $v) {
+						$aids=$model_bookcase->where("id=$v")->getField('aids');
+						$aid_arr=unserialize($aids);
+						foreach($aid_arr as $m_k=>$m_v){
+							if($m_v==$id) unset($aid_arr[$m_k]);
+						}
+						$aid_arr[]=$id;
+						$temp=array('aids'=>serialize($aid_arr),'updatetime'=>time());
+						$model_bookcase->where("id=$v")->save($temp);
+					}
+				}
+				if(isset($_POST['attr'])){
+					M('xw_attr')->where("aid={$id}")->delete();
+					$attr=array();
+					foreach($_POST['attr'] as $v){
+						$attr[]=array('aid'=>$id,'attr_id'=>$v);
+					}
+					M('xw_attr')->addAll($attr);
+				}
+				$this->success('操作成功！',U('Xw/index'));
+			}else{
+				$this->error('操作失败！',U('Xw/index'));
+
+			}
+			exit;
+		}
 		$this->attr=M('Attr')->select();
-
-
-		
-
 		//所属分类
 		$xwClass=M("Xwclass")->order("xh desc,id desc")->select();
 		$xwClass=sortCate($xwClass,0);
 		$this->assign("xwClass",$xwClass);
 
+		$this->bookcase=M("Bookcase")->order("sort asc,id desc")->select();
 
-
-
-		$id=$_GET['id']+0;
 		$this->shuxing=M('xw_attr')->where("aid={$id}")->select();
-		$this->v=M('Xw')->where("id={$id}")->find();
+		$this->info=M('Xw')->where("id={$id}")->find();
 		$this->display();
-	}
-
-	//修改操作
-	public function modify(){
-		$id=$_POST['id']+0;
-		if(empty($_POST['title'])){
-			$this->error('文章标题必填',U('Xw/update',array('id'=>$id)));
-			exit;
-		}
-		$data['state']=$_POST['state'];
-		$data['title']=$_POST['title'];
-		$data['pic1']=$_POST['pic1'];
-		$data['classid']=$_POST['topid'];
-		$data['link']=$_POST['link'];
-		$data['content']=$_POST['content'];
-		$data['hits']=$_POST['hits'];
-		$data['tag']=$_POST['tag'];
-		$data['time']=time();
-
-		M('xw_attr')->where("aid={$id}")->delete();
-		if(M('Xw')->where("id={$id}")->save($data)){
-			if(isset($_POST['attr'])){
-				
-				$attr=array();
-				foreach($_POST['attr'] as $v){
-					$attr[]=array('aid'=>$id,'attr_id'=>$v);
-				}
-				M('xw_attr')->addAll($attr);
-				
-				
-			}
-			$this->error('文章修改成功！',U('Xw/update',array('id'=>$id)));
-			exit;
-		}else{
-			$this->error('文章内容没有修改！',U('Xw/update',array('id'=>$id)));
-			exit;
-		}
-
 	}
 
 	//删除操作
 	public function del(){
 		$id=$_GET['id']+0;
 		if(M('Xw')->where("id={$id}")->delete()){
-			$this->error('文章删除成功！',U('Xw/index'));
+			$this->success('操作成功！',U('Xw/index'));
 			exit;
 		}else{
-			$this->error('文章删除失败！',U('Xw/index'));
+			$this->error('操作失败！',U('Xw/index'));
 			exit;
 		}
 	}
@@ -151,11 +147,11 @@ class XwAction extends CommonAction {
 			exit;
 		}
 
-		foreach($_POST['adid'] as $v){
+		foreach($_POST['ids'] as $v){
 			M('Xw')->where("id={$v}")->delete();
 		}
 
-		$this->error('文章批量删除成功！',U('Xw/index'));
+		$this->success('文章批量删除成功！',U('Xw/index'));
 		exit;
 	}
 
@@ -171,21 +167,7 @@ class XwAction extends CommonAction {
 				echo 0;
 			}
 		}
-
-
-
 	}
-
-
-	//所属区域
-	public function userclass(){
-		$list=M('userclass')->select();
-		$this->list=sortCate($list,0);
-
-		$this->display();
-	}
-
-
 
 	
 

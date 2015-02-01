@@ -33,6 +33,17 @@
   <aside class="Hui-aside" style="">
     <input runat="server" id="divScrollValue" type="hidden" value="" />
     <div class="menu_dropdown bk_2">
+
+      <dl id="menu_2">
+        <dt><i class="icon-edit"></i> 文章管理<b></b></dt>
+        <dd>
+          <ul>
+            <li><a _href="{:U('Xwclass/index')}" href="javascript:void(0)">分类管理</a></li>
+            <li><a _href="{:U('Bookcase/index')}" href="javascript:void(0)">书架管理</a></li>
+            <li><a _href="{:U('Xw/index')}" href="javascript:void(0)">文章管理</a></li>
+          </ul>
+        </dd>
+      </dl>
       <dl id="menu_1">
         <dt><i class="icon-user"></i> 用户中心<b></b></dt>
         <dd>
@@ -40,15 +51,6 @@
             <li><a _href="user-list.html" href="javascript:;">用户管理</a></li>
             <li><a _href="user-list-del.html" href="javascript:;">删除的用户</a></li>
             <li><a _href="user-list-black.html" href="javascript:;">黑名单</a></li>
-          </ul>
-        </dd>
-      </dl>
-      <dl id="menu_2">
-        <dt><i class="icon-edit"></i> 资讯管理<b></b></dt>
-        <dd>
-          <ul>
-            <li><a _href="{:U('Xwclass/index')}" href="javascript:void(0)">分类管理</a></li>
-            <li><a _href="artice-list.html" href="javascript:void(0)">资讯管理</a></li>
           </ul>
         </dd>
       </dl>
@@ -131,12 +133,9 @@
     </div>
   </section>
 </div>
-<script type="text/javascript" src="http://cdn.bootcss.com/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript" src="__STATIC__/js/jquery.min.js"></script>
 <script type="text/javascript" src="__STATIC__/js/H-ui.js"></script>
 <script type="text/javascript" src="__STATIC__/js/H-ui.admin.js"></script>
-<script type="text/javascript">
-var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F080836300300be57b7f34f4b3e97d911' type='text/javascript'%3E%3C/script%3E"));
-</script>
+
 </body>
 </html>

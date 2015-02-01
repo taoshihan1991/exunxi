@@ -1,6 +1,20 @@
 <?php
 header("content-type:text/html;charset=utf-8");
+/*判断图片*/
+function checkPic($src,$size){
+	if(empty($src)){
+		return __ROOT__.'/Static/images/nopic.jpg';
+	}else{
+		if($size){
+			return __ROOT__.$src.".{$size}.jpg";
+		}else{
+			return __ROOT__.$src;
+		}
+		
+	}
+}
 	//传父级，找子集 二维数组
+
 function findSon($cate,$id){
 	$arr=array();
 	$i=0;

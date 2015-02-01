@@ -4,6 +4,25 @@ class ViewAction extends CommonAction {
     public function index(){
     	$id=$this->id;
 
+        /*统计代码*/
+        $date=date("Y-m-d",time());
+        $model_ranking=M('ranking');
+        $ranking=$model_ranking->where("aid={$id} and date='{$date}'")->find();
+        if(!$ranking){
+            $data=array(
+                'aid'=>$id,
+                'date'=>$date
+            );
+            $model_ranking->add($data);
+        }else{
+            $data=array(
+                'hits'=>$ranking['hits']+1,
+                'date'=>$date
+            );
+            $model_ranking->where("aid={$id} and date='{$date}'")->save($data);
+        }
+        
+
     	M('xw')->where("id={$id}")->setInc('hits',1);
     	$field=M('xw')->where("id={$id}")->find();
 

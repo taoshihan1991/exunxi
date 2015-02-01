@@ -1,0 +1,2127 @@
+[ 2015-01-31T18:46:26+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010047s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010198s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009339s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.145452s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145596s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011815s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010980s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009826s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009670s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042562s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009874s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009957s ]
+
+[ 2015-01-31T18:46:28+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.012098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009882s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009983s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.094640s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094790s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011189s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010016s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041480s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009890s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009975s ]
+
+[ 2015-01-31T18:46:29+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/checkcode.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013240s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010980s ]
+
+[ 2015-01-31T18:46:34+08:00 ] 127.0.0.1 /exunxi/BookManage.php/public/check.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009501s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009623s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009308s ]
+SQL: SHOW COLUMNS FROM `tg_admin` [ RunTime:0.052011s ]
+SQL: SELECT * FROM `tg_admin` WHERE ( ad_name='admin' ) LIMIT 1   [ RunTime:0.001853s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060096s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009523s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009359s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009831s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038369s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009404s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009484s ]
+
+[ 2015-01-31T18:46:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010197s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009896s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077248s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009313s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009728s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009191s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010658s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039128s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009773s ]
+
+[ 2015-01-31T18:46:42+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/welcome.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010485s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010592s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010379s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.097200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.097331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010868s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010303s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.042195s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009754s ]
+
+[ 2015-01-31T18:46:49+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009744s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009200s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009290s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.009531s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.003420s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081770s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009783s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009149s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010101s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038832s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009490s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009563s ]
+
+[ 2015-01-31T18:46:53+08:00 ] 127.0.0.1 /exunxi/BookManage.php/bookcase/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010954s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009527s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.013289s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_bookcase` LIMIT 1   [ RunTime:0.027342s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 0,15   [ RunTime:0.000407s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.103548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.103719s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009161s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.008979s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008902s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009031s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036295s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009281s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009359s ]
+
+[ 2015-01-31T18:46:57+08:00 ] 127.0.0.1 /exunxi/BookManage.php/bookcase/add.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010399s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010510s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009933s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083114s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083243s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009377s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011257s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009816s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040376s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010071s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010155s ]
+
+[ 2015-01-31T18:47:05+08:00 ] 127.0.0.1 /exunxi/BookManage.php/bookcase/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010089s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010218s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009598s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.008923s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_bookcase` LIMIT 1   [ RunTime:0.000640s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 0,15   [ RunTime:0.000752s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066351s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066496s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009107s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009383s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009701s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009382s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037811s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010051s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010134s ]
+
+[ 2015-01-31T18:50:35+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009633s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009760s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009377s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.060522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009026s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008948s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009093s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036449s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009314s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009398s ]
+
+[ 2015-01-31T18:50:35+08:00 ] 127.0.0.1 /exunxi/BookManage.php/index/welcome.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015650s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011254s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077436s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009855s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009361s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009376s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009451s ]
+
+[ 2015-01-31T18:50:39+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009787s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.011939s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000403s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000881s ]
+ERR: 模板不存在[./Bmanage/Tpl/Xw/index.html]
+
+[ 2015-01-31T18:51:46+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009628s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009755s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009470s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013776s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000962s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070932s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009286s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009214s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009016s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036986s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009494s ]
+
+[ 2015-01-31T18:51:46+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010783s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010902s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011006s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T18:51:46+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010099s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010210s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012881s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:51:47+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.020592s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020779s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.023128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023288s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T18:51:47+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018824s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015033s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:51:47+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018126s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018278s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016630s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:51:47+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015068s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015245s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011758s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:52:44+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010010s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009814s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.007905s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000411s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001024s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064195s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009251s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009536s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009675s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038128s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009933s ]
+
+[ 2015-01-31T18:52:44+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010320s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013419s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:52:44+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010507s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010620s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011790s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T18:52:44+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017698s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017880s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017389s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T18:52:44+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018591s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018014s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:52:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013516s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.012758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012877s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:52:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015201s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015385s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010916s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:53:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009595s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.007119s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000439s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.002176s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.064545s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064676s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009792s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009004s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010046s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038907s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009747s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009832s ]
+
+[ 2015-01-31T18:53:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011599s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010567s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T18:53:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009954s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010065s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009809s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:53:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017515s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017697s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017155s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T18:53:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018159s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018326s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017780s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:53:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015380s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011298s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:53:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014967s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010941s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:55:57+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010200s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010363s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010770s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013637s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000523s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000987s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.078057s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.078153s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010206s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009620s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009802s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039753s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012766s ]
+
+[ 2015-01-31T18:55:58+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011683s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011805s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010855s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:55:58+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011343s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011455s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010549s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T18:55:58+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018579s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018757s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018499s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T18:55:58+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.020132s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020315s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017600s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:55:58+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017078s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017261s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016932s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:55:58+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014167s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014325s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010658s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:58:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009927s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010156s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013539s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000396s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000947s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 55 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.075526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075652s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009911s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009509s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009638s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010632s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010764s ]
+
+[ 2015-01-31T18:58:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010156s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010276s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010994s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T18:58:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011121s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010662s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:58:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017770s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017952s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017525s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T18:58:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017664s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017843s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016996s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017151s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:58:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014141s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013921s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:58:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014437s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014610s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010210s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:24+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010709s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010834s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011476s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013279s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000376s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+NOTIC: [8] Undefined index: author G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\fc058bdf54a4e778bbcd1763cd66698f.php 第 54 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070857s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070950s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009456s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009617s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038342s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012214s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012331s ]
+
+[ 2015-01-31T18:59:24+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011297s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011417s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010916s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T18:59:24+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010544s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010659s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010811s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:25+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017545s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017719s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018898s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019049s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T18:59:25+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.021279s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021460s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017695s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:25+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015812s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015975s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015568s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:25+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015062s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010532s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:39+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009919s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009538s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.010982s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000479s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001130s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069486s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011620s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009649s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009280s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009556s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040349s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015600s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015840s ]
+
+[ 2015-01-31T18:59:39+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011790s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011913s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011017s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011419s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011444s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T18:59:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019063s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017839s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T18:59:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.021671s ]
+INFO: [ route_check ] --END-- [ RunTime:0.021854s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017357s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.015460s ]
+INFO: [ route_check ] --END-- [ RunTime:0.015636s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016266s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013716s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010837s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T18:59:42+08:00 ] 127.0.0.1 /exunxi/BookManage.php/bookcase/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009539s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009647s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009322s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.011082s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_bookcase` LIMIT 1   [ RunTime:0.000449s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 0,15   [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.076178s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076288s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009678s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009568s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009412s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009862s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038818s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009512s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009589s ]
+
+[ 2015-01-31T18:59:56+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/update/id/48.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010918s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010170s ]
+SQL: SHOW COLUMNS FROM `tg_attr` [ RunTime:0.084963s ]
+SQL: SELECT * FROM `tg_attr`  [ RunTime:0.006854s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.012312s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.003837s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.072307s ]
+SQL: SELECT * FROM `tg_xw_attr` WHERE ( aid=48 )  [ RunTime:0.002412s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.006797s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id=48 ) LIMIT 1   [ RunTime:0.002262s ]
+ERR: 模板不存在[./Bmanage/Tpl/Xw/update.html]
+
+[ 2015-01-31T19:00:29+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009556s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009304s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013888s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000909s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069940s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070046s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009965s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009176s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009044s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037636s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009655s ]
+
+[ 2015-01-31T19:00:29+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010426s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010551s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010822s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:00:29+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011659s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011770s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009722s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T19:00:30+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017981s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T19:00:30+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.024455s ]
+INFO: [ route_check ] --END-- [ RunTime:0.024639s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017105s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:00:30+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014810s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014962s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016464s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:00:30+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015194s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:00:34+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009534s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009655s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009279s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.011079s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 20,20   [ RunTime:0.000895s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072113s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009603s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009544s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009437s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009944s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038779s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015257s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015461s ]
+
+[ 2015-01-31T19:00:36+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.025503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.025685s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.026739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.026891s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012848s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000528s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001272s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070112s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009445s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009216s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038217s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010307s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010425s ]
+
+[ 2015-01-31T19:00:37+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.023080s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023237s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.024155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024306s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.007010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000365s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.168458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.168573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.014521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.013871s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.012206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.056073s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016785s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016932s ]
+
+[ 2015-01-31T19:00:39+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.026429s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026602s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.025090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025239s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005320s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000975s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001392s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.083272s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.083396s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010715s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015440s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.013049s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.014567s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.054162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.017892s ]
+INFO: [ view_end ] --END-- [ RunTime:0.018225s ]
+
+[ 2015-01-31T19:00:40+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.022910s ]
+INFO: [ route_check ] --END-- [ RunTime:0.023096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017181s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.007128s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.003955s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.002530s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.115571s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115698s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010039s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010787s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.028408s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.018788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.068428s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.017033s ]
+
+[ 2015-01-31T19:00:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.022366s ]
+INFO: [ route_check ] --END-- [ RunTime:0.022564s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.020995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021153s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.019404s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.001256s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000926s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077454s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015845s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.013028s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.016267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.055102s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015955s ]
+
+[ 2015-01-31T19:00:42+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011486s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005450s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000669s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074208s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074331s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009349s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009219s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008915s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036852s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009467s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009582s ]
+
+[ 2015-01-31T19:00:44+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011140s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010834s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.016479s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000995s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071276s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071384s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009280s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009164s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008959s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037504s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.021751s ]
+INFO: [ view_end ] --END-- [ RunTime:0.021927s ]
+
+[ 2015-01-31T19:00:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011746s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011842s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010498s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.065674s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000579s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 40,20   [ RunTime:0.001050s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.087693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087810s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010403s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009688s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009332s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009779s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039517s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011934s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012062s ]
+
+[ 2015-01-31T19:00:47+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011302s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011425s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010457s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005212s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000381s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000902s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066089s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066190s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009151s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008949s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037362s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009549s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009665s ]
+
+[ 2015-01-31T19:00:48+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011557s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010893s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.007954s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001108s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066474s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066585s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011135s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.015973s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010153s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010509s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.048071s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010173s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010307s ]
+
+[ 2015-01-31T19:00:49+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017835s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017504s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.006134s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000362s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001271s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074978s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075145s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010665s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009111s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008955s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038175s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009406s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009512s ]
+
+[ 2015-01-31T19:00:50+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017846s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018019s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015243s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.022451s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.006367s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001067s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069231s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069347s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009320s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009231s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009067s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037192s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009480s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009590s ]
+
+[ 2015-01-31T19:00:52+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.019350s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019506s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016005s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004792s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000626s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001326s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070762s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009309s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009142s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008896s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009860s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037451s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009416s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009526s ]
+
+[ 2015-01-31T19:00:53+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018337s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016056s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012608s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000960s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001878s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.102076s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.102189s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010772s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011335s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010186s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009397s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041976s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010916s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011048s ]
+
+[ 2015-01-31T19:00:54+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010234s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009581s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.010990s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000843s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067418s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067526s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009223s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009382s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010345s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038973s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010229s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010367s ]
+
+[ 2015-01-31T19:00:55+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010038s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009565s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005325s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000887s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.074027s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011564s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008960s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039356s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009605s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009713s ]
+
+[ 2015-01-31T19:00:57+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.019041s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019233s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.021281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021435s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.010427s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.001130s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000868s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.072635s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072751s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010250s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009774s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040557s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.016413s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016567s ]
+
+[ 2015-01-31T19:00:59+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.026292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.026474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018773s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004969s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000316s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000859s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.077888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077990s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011296s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011937s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.011405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.011280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.046203s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012613s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012775s ]
+
+[ 2015-01-31T19:01:00+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.020153s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020318s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.023246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023405s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.035539s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.002484s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001103s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.115797s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.115916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.013859s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.012894s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.013150s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.012523s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.052932s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015542s ]
+INFO: [ view_end ] --END-- [ RunTime:0.015686s ]
+
+[ 2015-01-31T19:01:01+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018736s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019178s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.015429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015580s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005888s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000770s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069613s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069713s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010188s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009559s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009761s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010293s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010417s ]
+
+[ 2015-01-31T19:01:02+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.019336s ]
+INFO: [ route_check ] --END-- [ RunTime:0.019497s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012071s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013274s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001055s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.068222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068342s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009340s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009214s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008975s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037044s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009532s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009649s ]
+
+[ 2015-01-31T19:01:04+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013690s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013813s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009898s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.009292s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000341s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001383s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081616s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.081750s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.011045s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.011331s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.011415s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.010522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.044648s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.013978s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014133s ]
+
+[ 2015-01-31T19:01:44+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010057s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009789s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012826s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000448s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001008s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071291s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009256s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009276s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038684s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.013939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.014055s ]
+
+[ 2015-01-31T19:01:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011013s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011138s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010707s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T19:01:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010576s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010684s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011187s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.020634s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020806s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.018621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018774s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T19:01:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018197s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017484s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013331s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013481s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010517s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:45+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011109s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011258s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011460s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:53+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/del/id/48.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009531s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009650s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009319s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012396s ]
+SQL: DELETE FROM `tg_xw` WHERE ( id=48 ) [ RunTime:0.063057s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065306s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065540s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009736s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009326s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009625s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009896s ]
+
+[ 2015-01-31T19:01:55+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014061s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014207s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010286s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012754s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000463s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001041s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071291s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071397s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009362s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009567s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009751s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038448s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012052s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012169s ]
+
+[ 2015-01-31T19:01:55+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009448s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009561s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009252s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T19:01:56+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.029627s ]
+INFO: [ route_check ] --END-- [ RunTime:0.029778s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.031835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.031987s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:56+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.018620s ]
+INFO: [ route_check ] --END-- [ RunTime:0.018807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017968s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:56+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017532s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017718s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017599s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:56+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.019956s ]
+INFO: [ route_check ] --END-- [ RunTime:0.020130s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.014015s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014166s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:01:56+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014107s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.011959s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012052s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T19:02:00+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/del/id/46.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010294s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009757s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009853s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.016386s ]
+SQL: DELETE FROM `tg_xw` WHERE ( id=46 ) [ RunTime:0.000660s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065087s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065209s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009510s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009041s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009893s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038139s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010062s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010148s ]
+
+[ 2015-01-31T19:02:02+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009547s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009665s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009913s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.011838s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000410s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000817s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067591s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067699s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009730s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009450s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009565s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009849s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010929s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011041s ]
+
+[ 2015-01-31T19:02:02+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/layer/layer.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010897s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010713s ]
+ERR: 非法操作:layer
+
+[ 2015-01-31T19:02:02+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/pagenav.cn.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.011660s ]
+INFO: [ route_check ] --END-- [ RunTime:0.011807s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009845s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:02:03+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/plugin/My97DatePicker/WdatePicker.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017786s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017961s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017626s ]
+ERR: 非法操作:plugin
+
+[ 2015-01-31T19:02:03+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/jquery.dataTables.min.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017662s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017833s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.017756s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:02:03+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.014495s ]
+INFO: [ route_check ] --END-- [ RunTime:0.014643s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013598s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:02:03+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/js/H-ui.admin.js
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.013208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.013387s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.013081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013233s ]
+ERR: 非法操作:js
+
+[ 2015-01-31T19:03:53+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009850s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009973s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009903s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012668s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000553s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001426s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.069445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.069566s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009704s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009571s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009243s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038307s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010729s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010843s ]
+
+[ 2015-01-31T19:05:53+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010168s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010288s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009819s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005805s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000391s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000935s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070421s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009535s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009275s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008972s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037198s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009538s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009653s ]
+
+[ 2015-01-31T19:05:57+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/betchdel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009548s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009673s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009361s ]
+NOTIC: [8] Undefined index: adid G:\php\htdocs\exunxi\Bmanage\Lib\Action\XwAction.class.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\php\htdocs\exunxi\Bmanage\Lib\Action\XwAction.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009070s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009007s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008857s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009089s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009245s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009321s ]
+
+[ 2015-01-31T19:06:00+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010195s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.010358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010457s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.014497s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000476s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001153s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071682s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010118s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009670s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009710s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039159s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011721s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011836s ]
+
+[ 2015-01-31T19:06:05+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/betchdel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009648s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009203s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009295s ]
+NOTIC: [8] Undefined index: adid G:\php\htdocs\exunxi\Bmanage\Lib\Action\XwAction.class.php 第 151 行.
+NOTIC: [2] Invalid argument supplied for foreach() G:\php\htdocs\exunxi\Bmanage\Lib\Action\XwAction.class.php 第 151 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 58 行.
+NOTIC: [8] Undefined variable: message G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 64 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.056830s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.056922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009019s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009096s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008887s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009312s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009397s ]
+
+[ 2015-01-31T19:06:08+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009825s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009946s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009405s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012937s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000433s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000920s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070909s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010060s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009885s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009176s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009852s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039436s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.012628s ]
+INFO: [ view_end ] --END-- [ RunTime:0.012741s ]
+
+[ 2015-01-31T19:06:35+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010246s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009597s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.007290s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.004265s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001815s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.066207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.066300s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009317s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009019s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.008907s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.036592s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009320s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009422s ]
+
+[ 2015-01-31T19:06:39+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/betchdel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009921s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010043s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009832s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.010994s ]
+SQL: DELETE FROM `tg_xw` WHERE ( id=45 ) [ RunTime:0.002867s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.065529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009425s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038078s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009541s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009624s ]
+
+[ 2015-01-31T19:06:41+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009778s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009904s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009386s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004677s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000515s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000894s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067484s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067580s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009335s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.010864s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039287s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011571s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011685s ]
+
+[ 2015-01-31T19:07:19+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/betchdel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010230s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010353s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009681s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.010434s ]
+SQL: DELETE FROM `tg_xw` WHERE ( id=47 ) [ RunTime:0.003189s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.062744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062853s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009912s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009314s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009156s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009373s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037991s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009573s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009657s ]
+
+[ 2015-01-31T19:07:22+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009567s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009693s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009342s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.008267s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.000946s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070704s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070807s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009537s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009418s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009242s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037917s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010925s ]
+
+[ 2015-01-31T19:08:02+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index/p/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010782s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009729s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.012834s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000434s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 40,20   [ RunTime:0.000748s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.067766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067881s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009338s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009684s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009271s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038070s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.009826s ]
+INFO: [ view_end ] --END-- [ RunTime:0.009912s ]
+
+[ 2015-01-31T19:08:06+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/betchdel.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009527s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009652s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009270s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.016564s ]
+SQL: DELETE FROM `tg_xw` WHERE ( id=1 ) [ RunTime:0.005478s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 61 行.
+NOTIC: [8] Undefined variable: error G:\php\htdocs\exunxi\Bmanage\Runtime\Cache\e614d7b1ff250ccd7ce485f7ac1d3fbb.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061265s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.009540s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009550s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009264s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009233s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.037930s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010061s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010148s ]
+
+[ 2015-01-31T19:08:09+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xw/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.010226s ]
+INFO: [ route_check ] --END-- [ RunTime:0.010466s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009917s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013196s ]
+SQL: SELECT COUNT(*) AS tp_count FROM tg_xw a LIMIT 1   [ RunTime:0.000458s ]
+SQL: SELECT a.id,a.title,a.state,a.time,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  ORDER BY a.id desc LIMIT 0,20   [ RunTime:0.001382s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070594s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070715s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010041s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.010728s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.009206s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009696s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.039915s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.011476s ]
+INFO: [ view_end ] --END-- [ RunTime:0.011595s ]
+
+[ 2015-01-31T19:08:27+08:00 ] 127.0.0.1 /exunxi/BookManage.php/xwclass/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.009794s ]
+INFO: [ route_check ] --END-- [ RunTime:0.009898s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.009941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010035s ]
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.011123s ]
+SQL: SELECT * FROM `tg_xwclass` ORDER BY xh desc,id desc  [ RunTime:0.002416s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.071261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071386s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.010067s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.009871s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.011180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.009753s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041130s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.010200s ]
+INFO: [ view_end ] --END-- [ RunTime:0.010289s ]
+

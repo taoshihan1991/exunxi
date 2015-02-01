@@ -474,7 +474,7 @@ margin-right: 0px;
 .list-tweet .thumb{
 	display: block;
 	width: 90px;
-	height: 110px;
+	height: 90px;
 	float: left;
 }
 .list-tweet img {
@@ -563,7 +563,6 @@ margin-right: 0px;
 
 /****底部样式***/
 .footer{
-	margin-bottom: 30px;
 	clear: both;
 	color: #ddd;
 	text-shadow: 0 -1px 0 #333333;
@@ -930,4 +929,14 @@ p.t-tag a {
 }
 .page a:hover{
 	background: #E0E0E0;
+}
+.bottom{
+	height: 100px;
+	width: 100%;
+	background: #01B1B1;
+	color:#fff;
+}
+.bottom .copy{
+	text-align: center;
+	line-height: 23px;
 }
