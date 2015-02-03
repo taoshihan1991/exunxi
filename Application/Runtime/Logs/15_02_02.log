@@ -1,0 +1,687 @@
+[ 2015-02-02T09:14:08+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+NOTIC: [2] mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: YES) D:\phpstudy\WWW\exunxi\ThinkPHP\Lib\Driver\Db\DbMysql.class.php 第 55 行.
+ERR: Access denied for user 'root'@'localhost' (using password: YES)
+
+[ 2015-02-02T09:14:28+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.010001s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.008001s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.003000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 10,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.009001s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.007000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=1 ) ORDER BY aid desc LIMIT 2   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM tg_xw a WHERE ( `id` IN ('50','49') ) ORDER BY id desc LIMIT 2   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.005000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('49','50','41','43') ) ORDER BY FIND_IN_SET(id,'49,50,41,43')  [ RunTime:0.000000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( week(date)=week(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,43')  [ RunTime:0.000000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( month(date)=month(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,43')  [ RunTime:0.001000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=2 ) ORDER BY aid desc LIMIT 15   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pic1` FROM tg_xw a WHERE ( `id` IN ('50','44','40','38','34','33','30','29','28','27','26','24','23','6') ) ORDER BY id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-02T09:17:48+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.006000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 10,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.003001s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=1 ) ORDER BY aid desc LIMIT 2   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM tg_xw a WHERE ( `id` IN ('50','49') ) ORDER BY id desc LIMIT 2   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.004000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('49','50','41','43') ) ORDER BY FIND_IN_SET(id,'49,50,41,43')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( week(date)=week(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,43')  [ RunTime:0.000000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( month(date)=month(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,43')  [ RunTime:0.001000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=2 ) ORDER BY aid desc LIMIT 15   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pic1` FROM tg_xw a WHERE ( `id` IN ('50','44','40','38','34','33','30','29','28','27','26','24','23','6') ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-02T09:35:09+08:00 ] 0.0.0.0 /exunxi/index.php/list/bookcase/caseid/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.004000s ]
+SQL: SELECT `aids`,`casename` FROM `tg_bookcase` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50) ) LIMIT 1   [ RunTime:0.001001s ]
+ERR: 1054:Unknown column 'a.id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50) ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005000s ]
+NOTIC: [8] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 0 of 947 bytes D:\phpstudy\WWW\exunxi\ThinkPHP\Lib\Driver\Cache\CacheFile.class.php 第 107 行.
+SQL: SELECT a.id,a.title,a.pic1,a.hits,a.content,a.classid,a.hits,a.time,a.tag,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  WHERE ( a.id IN (12,null,50) ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-02T09:35:11+08:00 ] 0.0.0.0 /exunxi/index.php/list/bookcase/caseid/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.004000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.007001s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.007000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.005001s ]
+SQL: SELECT `aids`,`casename` FROM `tg_bookcase` WHERE ( id=2 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50) ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'a.id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50) ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-02T09:35:15+08:00 ] 0.0.0.0 /exunxi/index.php/list/bookcase/caseid/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.003000s ]
+SQL: SELECT `aids`,`casename` FROM `tg_bookcase` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50,49) ) LIMIT 1   [ RunTime:0.002001s ]
+ERR: 1054:Unknown column 'a.id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50,49) ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+NOTIC: [8] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 0 of 1753 bytes D:\phpstudy\WWW\exunxi\ThinkPHP\Lib\Driver\Cache\CacheFile.class.php 第 107 行.
+SQL: SELECT a.id,a.title,a.pic1,a.hits,a.content,a.classid,a.hits,a.time,a.tag,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  WHERE ( a.id IN (12,null,50,49) ) ORDER BY a.id desc LIMIT 0,2   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-02T09:35:16+08:00 ] 0.0.0.0 /exunxi/index.php/list/bookcase/caseid/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.006001s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.004000s ]
+SQL: SELECT `aids`,`casename` FROM `tg_bookcase` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50,49) ) LIMIT 1   [ RunTime:0.001000s ]
+ERR: 1054:Unknown column 'a.id' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( a.id IN (12,null,50,49) ) LIMIT 1  
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005001s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-02T09:36:49+08:00 ] 0.0.0.0 /exunxi/index.php/list/index/cid/4.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005001s ]
+NOTIC: [8] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 0 of 41 bytes D:\phpstudy\WWW\exunxi\ThinkPHP\Lib\Driver\Cache\CacheFile.class.php 第 107 行.
+SQL: SELECT COUNT(*) AS tp_count FROM `tg_xw` WHERE ( `classid` IN ('4') ) AND ( `del` = 0 ) AND ( `state` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.006000s ]
+NOTIC: [8] unserialize() [<a href='function.unserialize'>function.unserialize</a>]: Error at offset 0 of 51934 bytes D:\phpstudy\WWW\exunxi\ThinkPHP\Lib\Driver\Cache\CacheFile.class.php 第 107 行.
+SQL: SELECT a.id,a.title,a.pic1,a.hits,a.content,a.classid,a.hits,a.time,a.tag,b.classname FROM tg_xw a LEFT JOIN tg_xwclass b on a.classid=b.id  WHERE ( `classid` IN ('4') ) AND ( `del` = 0 ) AND ( `state` = 1 ) ORDER BY a.time desc LIMIT 0,10   [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2015-02-02T09:36:51+08:00 ] 0.0.0.0 /exunxi/index.php/list/index/cid/4.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-02T11:00:01+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 10,20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.005000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=1 ) ORDER BY aid desc LIMIT 2   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM tg_xw a WHERE ( `id` IN ('50','49') ) ORDER BY id desc LIMIT 2   [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.005000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('49','50','41','43') ) ORDER BY FIND_IN_SET(id,'49,50,41,43')  [ RunTime:0.000000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( week(date)=week(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,43')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( month(date)=month(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,43')  [ RunTime:0.001000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=2 ) ORDER BY aid desc LIMIT 15   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pic1` FROM tg_xw a WHERE ( `id` IN ('50','44','40','38','34','33','30','29','28','27','26','24','23','6') ) ORDER BY id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-02T11:00:19+08:00 ] 0.0.0.0 /exunxi/index.php/view/index/id/39.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.006000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004001s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tg_ranking` WHERE ( aid=39 and date='2015-02-02' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `tg_ranking` (`aid`,`date`) VALUES (39,'2015-02-02') [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.005000s ]
+SQL: UPDATE `tg_xw` SET `hits`=hits+1 WHERE ( id=39 ) [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id < 39 and classid=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id > 39 and classid=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_comment` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_comment` WHERE ( aid=39 ) ORDER BY time asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2015-02-02T11:00:20+08:00 ] 0.0.0.0 /exunxi/index.php/view/index/id/39.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.009001s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_ranking` WHERE ( aid=39 and date='2015-02-02' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `tg_ranking` SET `hits`=2,`date`='2015-02-02' WHERE ( aid=39 and date='2015-02-02' ) [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+SQL: UPDATE `tg_xw` SET `hits`=hits+1 WHERE ( id=39 ) [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id < 39 and classid=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id > 39 and classid=10 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_comment` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `tg_comment` WHERE ( aid=39 ) ORDER BY time asc  [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2015-02-02T11:00:31+08:00 ] 0.0.0.0 /exunxi/index.php/list/index/cid/4.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_xwclass` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `tg_xwclass` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.006000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-02T11:00:34+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.003000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 10,20   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.006001s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=1 ) ORDER BY aid desc LIMIT 2   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM tg_xw a WHERE ( `id` IN ('50','49') ) ORDER BY id desc LIMIT 2   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.004000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('49','50','41','39','43') ) ORDER BY FIND_IN_SET(id,'49,50,41,39,43')  [ RunTime:0.000000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( week(date)=week(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','39','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,39,43')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( month(date)=month(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('41','49','50','39','43') ) ORDER BY FIND_IN_SET(id,'41,49,50,39,43')  [ RunTime:0.001000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=2 ) ORDER BY aid desc LIMIT 15   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pic1` FROM tg_xw a WHERE ( `id` IN ('50','44','40','38','34','33','30','29','28','27','26','24','23','6') ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-02T11:01:08+08:00 ] 0.0.0.0 /exunxi/index.php/view/index/id/43.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.003000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_ranking` WHERE ( aid=43 and date='2015-02-02' ) LIMIT 1   [ RunTime:0.003000s ]
+SQL: INSERT INTO `tg_ranking` (`aid`,`date`) VALUES (43,'2015-02-02') [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.006001s ]
+SQL: UPDATE `tg_xw` SET `hits`=hits+1 WHERE ( id=43 ) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id < 43 and classid=4 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id > 43 and classid=4 ) ORDER BY id desc LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_comment` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tg_comment` WHERE ( aid=43 ) ORDER BY time asc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2015-02-02T11:01:09+08:00 ] 0.0.0.0 /exunxi/index.php/view/index/id/43.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.002000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tg_ranking` WHERE ( aid=43 and date='2015-02-02' ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `tg_ranking` SET `hits`=2,`date`='2015-02-02' WHERE ( aid=43 and date='2015-02-02' ) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.013001s ]
+SQL: UPDATE `tg_xw` SET `hits`=hits+1 WHERE ( id=43 ) [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id=43 ) LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id < 43 and classid=4 ) ORDER BY id desc LIMIT 1   [ RunTime:0.002000s ]
+SQL: SELECT * FROM `tg_xw` WHERE ( id > 43 and classid=4 ) ORDER BY id desc LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_comment` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `tg_comment` WHERE ( aid=43 ) ORDER BY time asc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-02T11:01:13+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.004001s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.003000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.000000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 10,20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.003001s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=1 ) ORDER BY aid desc LIMIT 2   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM tg_xw a WHERE ( `id` IN ('50','49') ) ORDER BY id desc LIMIT 2   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.005000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('49','50','43','41','39') ) ORDER BY FIND_IN_SET(id,'49,50,43,41,39')  [ RunTime:0.002000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( week(date)=week(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('43','41','49','50','39') ) ORDER BY FIND_IN_SET(id,'43,41,49,50,39')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( month(date)=month(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('43','41','49','50','39') ) ORDER BY FIND_IN_SET(id,'43,41,49,50,39')  [ RunTime:0.002000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=2 ) ORDER BY aid desc LIMIT 15   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pic1` FROM tg_xw a WHERE ( `id` IN ('50','44','40','38','34','33','30','29','28','27','26','24','23','6') ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2015-02-02T11:01:18+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.006001s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.006000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.001001s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 10,20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 10   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.004000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=1 ) ORDER BY aid desc LIMIT 2   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title` FROM tg_xw a WHERE ( `id` IN ('50','49') ) ORDER BY id desc LIMIT 2   [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.003000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('49','50','43','41','39') ) ORDER BY FIND_IN_SET(id,'49,50,43,41,39')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( week(date)=week(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('43','41','49','50','39') ) ORDER BY FIND_IN_SET(id,'43,41,49,50,39')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( month(date)=month(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('43','41','49','50','39') ) ORDER BY FIND_IN_SET(id,'43,41,49,50,39')  [ RunTime:0.001000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=2 ) ORDER BY aid desc LIMIT 15   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`pic1` FROM tg_xw a WHERE ( `id` IN ('50','44','40','38','34','33','30','29','28','27','26','24','23','6') ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2015-02-02T11:01:47+08:00 ] 0.0.0.0 /exunxi/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: cate D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `tg_setup` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_setup` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: notice D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 19 行.
+NOTIC: [8] Undefined variable: id D:\phpstudy\WWW\exunxi\Application\Lib\Action\CommonAction.class.php 第 35 行.
+SQL: SHOW COLUMNS FROM `tg_link` [ RunTime:0.005000s ]
+SQL: SELECT `id`,`title`,`link` FROM `tg_link`  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_xw` [ RunTime:0.004001s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.001000s ]
+SQL: SELECT `title`,`id` FROM `tg_xw` WHERE ( `state` = 1 ) ORDER BY time desc LIMIT 10,20   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_bookcase` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `tg_xw_attr` [ RunTime:0.003000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=1 ) ORDER BY aid desc LIMIT 2   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title` FROM tg_xw a WHERE ( `id` IN ('50','49') ) ORDER BY id desc LIMIT 2   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `tg_ranking` [ RunTime:0.004001s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('49','50','43','41','39') ) ORDER BY FIND_IN_SET(id,'49,50,43,41,39')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( week(date)=week(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('43','41','49','50','39') ) ORDER BY FIND_IN_SET(id,'43,41,49,50,39')  [ RunTime:0.001000s ]
+SQL: SELECT sum(hits) as num,`aid` FROM `tg_ranking` WHERE ( month(date)=month(now()) ) GROUP BY aid ORDER BY num desc LIMIT 10   [ RunTime:0.001000s ]
+SQL: SELECT `id`,`title`,`time`,`pic1`,`content` FROM `tg_xw` WHERE ( `id` IN ('43','41','49','50','39') ) ORDER BY FIND_IN_SET(id,'43,41,49,50,39')  [ RunTime:0.001000s ]
+SQL: SELECT `aid` FROM `tg_xw_attr` WHERE ( attr_id=2 ) ORDER BY aid desc LIMIT 15   [ RunTime:0.000000s ]
+SQL: SELECT `id`,`title`,`pic1` FROM tg_xw a WHERE ( `id` IN ('50','44','40','38','34','33','30','29','28','27','26','24','23','6') ) ORDER BY id desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `tg_bookcase` ORDER BY sort asc,updatetime desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+

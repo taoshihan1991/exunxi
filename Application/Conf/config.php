@@ -8,7 +8,7 @@ return array(
 	  'DB_HOST' => 'localhost',
 	  'DB_NAME' => 'exunxi',
 	  'DB_USER' => 'root',
-	  'DB_PWD' => 'taoshihan1',
+	  'DB_PWD' => 'root',
 	  'DB_PORT' => '3306',
 	  'DB_PREFIX' => 'tg_',
 );

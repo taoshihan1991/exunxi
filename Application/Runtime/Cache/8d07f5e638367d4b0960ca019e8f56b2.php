@@ -90,11 +90,7 @@
 	<div class="IndexLink">
 		<div class="moketitle">友情链接<a href="" rel="nofollow">more>></a></div>
 		<ul>
-			<li><a href="">管理学书籍</a></li>
-			<li><a href="">酷读论坛</a></li>
-			<li><a href="">微时光</a></li>
-			<li><a href="">敲敲门</a></li>
-			<li><a href="">同行者</a></li>
+		<?php if(is_array($link)): foreach($link as $key=>$v): ?><li><a href="<?php echo ($v["link"]); ?>" target="_blank"><?php echo ($v["title"]); ?></a></li><?php endforeach; endif; ?>
 		</ul>
 	</div>
 	<!--//友情链接-->
